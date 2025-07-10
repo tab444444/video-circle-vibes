@@ -9,7 +9,7 @@ const Index = () => {
         <div className="space-y-2 sm:space-y-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Circular Video Player</h1>
           <p className="text-sm sm:text-lg md:text-xl text-muted-foreground px-4">
-            {window.innerWidth < 768 ? 'Tap to play/pause' : 'Click to play/pause the video'}
+            Infinite looping video
           </p>
         </div>
         
