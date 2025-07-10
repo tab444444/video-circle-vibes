@@ -54,10 +54,19 @@ All colors MUST be HSL.
 
     --sidebar-ring: 217.2 91.2% 59.8%;
     
-    /* Custom colors for decorative elements */
-    --coral-300: 255 158 128;
-    --coral-400: 255 127 80;
-    --coral-500: 255 99 71;
+    /* Custom colors matching the reference image */
+    --mint-300: 134 239 172;
+    --mint-400: 110 231 183; 
+    --mint-500: 16 185 129;
+    --coral-300: 253 186 116;
+    --coral-400: 251 146 60;
+    --coral-500: 249 115 22;
+    --ocean-400: 56 189 248;
+    --ocean-500: 14 165 233;
+    --ocean-600: 2 132 199;
+    --sunshine-300: 253 224 71;
+    --sunshine-400: 250 204 21;
+    --sunshine-500: 234 179 8;
   }
 
   .dark {
@@ -97,10 +106,19 @@ All colors MUST be HSL.
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
     
-    /* Custom colors for decorative elements */
-    --coral-300: 255 158 128;
-    --coral-400: 255 127 80;
-    --coral-500: 255 99 71;
+    /* Custom colors matching the reference image */
+    --mint-300: 134 239 172;
+    --mint-400: 110 231 183; 
+    --mint-500: 16 185 129;
+    --coral-300: 253 186 116;
+    --coral-400: 251 146 60;
+    --coral-500: 249 115 22;
+    --ocean-400: 56 189 248;
+    --ocean-500: 14 165 233;
+    --ocean-600: 2 132 199;
+    --sunshine-300: 253 224 71;
+    --sunshine-400: 250 204 21;
+    --sunshine-500: 234 179 8;
   }
 }
 
