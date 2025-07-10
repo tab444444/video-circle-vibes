@@ -62,25 +62,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				mint: {
-					'300': 'rgb(var(--mint-300))',
-					'400': 'rgb(var(--mint-400))',
-					'500': 'rgb(var(--mint-500))'
-				},
 				coral: {
 					'300': 'rgb(var(--coral-300))',
 					'400': 'rgb(var(--coral-400))',
 					'500': 'rgb(var(--coral-500))'
-				},
-				ocean: {
-					'400': 'rgb(var(--ocean-400))',
-					'500': 'rgb(var(--ocean-500))',
-					'600': 'rgb(var(--ocean-600))'
-				},
-				sunshine: {
-					'300': 'rgb(var(--sunshine-300))',
-					'400': 'rgb(var(--sunshine-400))',
-					'500': 'rgb(var(--sunshine-500))'
 				}
 			},
 			borderRadius: {
