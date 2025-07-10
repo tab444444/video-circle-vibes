@@ -22,7 +22,7 @@ const CircularVideoPlayer = ({
   }, []);
 
   return (
-    <div className={`relative w-[500px] h-72 sm:w-[600px] sm:h-80 md:w-[700px] md:h-96 lg:w-[800px] lg:h-[420px] ${className}`}>
+    <div className={`relative w-[500px] h-72 sm:w-[600px] sm:h-80 md:w-[700px] md:h-96 lg:w-[800px] lg:h-[420px] transform rotate-12 ${className}`}>
       {/* Decorative elements around the frame */}
       <div className="absolute inset-0">
         {/* Top decorative elements */}
