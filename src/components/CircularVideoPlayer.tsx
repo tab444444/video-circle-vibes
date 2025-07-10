@@ -58,7 +58,7 @@ const CircularVideoPlayer = ({
           <div className="w-full h-full rounded-full overflow-hidden shadow-xl">
             <video
               src={src}
-              className="w-full h-full object-cover transform -rotate-12 scale-110"
+              className="w-full h-full object-cover transform -rotate-12 scale-125"
               loop
               muted
               autoPlay
