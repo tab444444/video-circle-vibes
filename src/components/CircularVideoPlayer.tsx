@@ -73,10 +73,11 @@ const CircularVideoPlayer = ({
             autoPlay
             playsInline
             preload="metadata"
+            controls={false}
           />
         </div>
         {/* Gradient border overlay */}
-        <div className="absolute inset-0 rounded-full border-4 border-transparent bg-gradient-to-r from-mint-400 via-coral-400 to-ocean-500 bg-clip-border"></div>
+        <div className="absolute inset-0 rounded-full border-4 border-transparent bg-gradient-to-r from-mint-400 via-coral-400 to-ocean-500 bg-clip-border pointer-events-none"></div>
       </div>
     </div>
   );
