@@ -22,7 +22,7 @@ const CircularVideoPlayer = ({
   }, []);
 
   return (
-    <div className={`relative w-80 h-60 sm:w-96 sm:h-72 md:w-[480px] md:h-80 lg:w-[560px] lg:h-96 ${className}`}>
+    <div className={`relative w-96 h-56 sm:w-[480px] sm:h-64 md:w-[600px] md:h-80 lg:w-[720px] lg:h-96 ${className}`}>
       {/* Decorative elements around the frame */}
       <div className="absolute inset-0">
         {/* Top decorative elements */}
@@ -53,11 +53,11 @@ const CircularVideoPlayer = ({
       {/* Main oval video container with gradient border */}
       <div className="relative w-full h-full">
         {/* Gradient border background */}
-        <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-coral-400 to-blue-500 rounded-[3rem] p-1">
+        <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-coral-400 to-blue-500 rounded-[4rem] p-1">
           {/* Inner container for video */}
-          <div className="w-full h-full bg-white rounded-[2.8rem] p-1">
+          <div className="w-full h-full bg-white rounded-[3.8rem] p-1">
             {/* Video container */}
-            <div className="w-full h-full rounded-[2.6rem] overflow-hidden shadow-xl">
+            <div className="w-full h-full rounded-[3.6rem] overflow-hidden shadow-xl">
               <video
                 src={src}
                 className="w-full h-full object-cover"
