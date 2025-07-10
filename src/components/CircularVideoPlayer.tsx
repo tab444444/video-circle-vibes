@@ -53,20 +53,19 @@ const CircularVideoPlayer = ({
       {/* Main oval video container with gradient border */}
       <div className="relative w-full h-full">
         {/* Gradient border background */}
-        <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-coral-400 to-blue-500 rounded-full p-1">
-          {/* Video container - removed inner white border */}
-          <div className="w-full h-full rounded-full overflow-hidden shadow-xl">
-            <video
-              src={src}
-              className="w-full h-full object-cover transform -rotate-12 scale-125"
-              loop
-              muted
-              autoPlay
-              playsInline
-              preload="metadata"
-            />
-          </div>
+        <div className="absolute inset-0 rounded-full overflow-hidden shadow-xl">
+          <video
+            src={src}
+            className="w-full h-full object-cover transform -rotate-12 scale-150"
+            loop
+            muted
+            autoPlay
+            playsInline
+            preload="metadata"
+          />
         </div>
+        {/* Gradient border overlay */}
+        <div className="absolute inset-0 rounded-full border-4 border-transparent bg-gradient-to-r from-teal-400 via-coral-400 to-blue-500 bg-clip-border"></div>
       </div>
     </div>
   );
